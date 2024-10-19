@@ -52,7 +52,7 @@ function Formulario() {
     localStorage.setItem("Funcionarios", JSON.stringify(funcionariosSalvos));
 
     localStorage.removeItem("funcionarioEditado");
-    
+
     setFuncionario({
       nome: "",
       cpf: "",
@@ -78,7 +78,7 @@ function Formulario() {
           placeholder="Digite o Nome"
           value={funcionario.nome}
           onChange={handleChange}
-          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
+          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2.5vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
         />
         <label className="font-medium text-black py-2">CPF</label>
         <input
@@ -88,7 +88,7 @@ function Formulario() {
           placeholder="Digite o CPF"
           onChange={handleChange}
           disabled={!!funcionario.cpf}
-          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
+          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2.5vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
         />
         <label className="font-medium text-black py-2">Salário</label>
         <input
@@ -97,7 +97,7 @@ function Formulario() {
           value={funcionario.salario}
           placeholder="Digite o seu Salario"
           onChange={handleChange}
-          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
+          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2.5vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
         />
         <label className="font-medium text-black py-2">Endereço</label>
         <input
@@ -106,7 +106,7 @@ function Formulario() {
           value={funcionario.endereco}
           placeholder="Digite o seu Endereço"
           onChange={handleChange}
-          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
+          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2.5vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
         />
         <label className="font-medium text-black py-2">Telefone</label>
         <input
@@ -115,7 +115,7 @@ function Formulario() {
           value={funcionario.telefone}
           placeholder="Digite o seu Telefone"
           onChange={handleChange}
-          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
+          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2.5vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
         />
         <label className="font-medium text-black py-2">Horas Trabalhadas</label>
         <input
@@ -124,7 +124,7 @@ function Formulario() {
           value={funcionario.horasTrabalhadas}
           placeholder="Quantas horas você trabalha ?"
           onChange={handleChange}
-          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
+          className="hover:ring-2 hover:ring-black hover:ring-offset-2 px-3 w-[24vw] text-[2.5vh] bg-[#171616] text-white p-1 border border-white/10 rounded-md outline-none ring-2 ring-blue-500/0 focus:ring-blue-500"
         />
         <button
           type="submit"
