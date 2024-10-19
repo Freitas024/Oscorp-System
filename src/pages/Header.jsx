@@ -1,10 +1,9 @@
-import '../index.css'
+import "../index.css";
 
 function Header() {
   return (
-    
-    <header className='grid items-center justify-items-center h-24 w-100 bg-black text-white'>
-      <img src='https://theoscorpindustries.weebly.com/uploads/1/1/3/9/11390381/6960374.png?413' alt="logo"  className='h-auto w-[15vw] p-2'/>
+    <header className="grid items-center justify-items-center h-18 w-100 bg-white text-white shadow-md">
+      <h1 className=" font-sans text-black font-bold text-4xl py-3">Oscorp</h1>
     </header>
   );
 }
